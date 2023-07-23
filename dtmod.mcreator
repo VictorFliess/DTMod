@@ -1,5 +1,18 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Listatarefasnaoefuncaonaousaessaporra",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "listatarefasnaoefuncaonaousaessaporra",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/functions/listatarefasnaoefuncaonaousaessaporra.mcfunction"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
