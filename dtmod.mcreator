@@ -84,15 +84,228 @@
           "src/main/resources/data/dtmod/recipes/crafting_table.json"
         ]
       }
+    },
+    {
+      "name": "GadoliniumArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dtmod/models/item/gadolinium_armor_leggings.json",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_armor_boots.json",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_armor_chestplate.json",
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumArmorItem.java",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumPickaxeItem.java",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dtmod/models/item/gadolinium_axe.json",
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumSword",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dtmod/models/item/gadolinium_sword.json",
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumShovelItem.java",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/item/GadoliniumHoeItem.java",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GadoliniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/gadolinium_hoe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
-      "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
+      "item.dtmod.gadolinium_axe": "Gadolinium Axe",
+      "item.dtmod.gadolinium_armor_leggings": "Gadolinium Leggings",
+      "item.dtmod.gadolinium_shovel": "Gadolinium Shovel",
+      "item.dtmod.gadolinium_armor_chestplate": "Gadolinium Chestplate",
       "item.dtmod.itemgadoliniumingot": "Itemgadoliniumingot",
+      "item.dtmod.gadolinium_armor_boots": "Gadolinium Boots",
+      "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
+      "item.dtmod.gadolinium_hoe": "Gadolinium Hoe",
+      "item.dtmod.gadolinium_pickaxe": "Gadolinium Pickaxe",
+      "item.dtmod.gadolinium_armor_helmet": "Gadolinium Helmet",
+      "item.dtmod.gadolinium_sword": "Gadolinium Sword",
+      "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
       "item.dtmod.item_raw_gadolinium": "Raw Gadolinium"
     }
   },

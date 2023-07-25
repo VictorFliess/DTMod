@@ -8,26 +8,26 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Itemrawgadolinium"
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
-        "value": ""
-      },
-      {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Itemgadoliniumingot"
+      "value": "CUSTOM:GadoliniumArmor.helmet"
     },
-    "name": "crafting_table",
+    "name": "gadolinium_armor_helmet_recipe",
     "namespace": "mod"
   }
 }

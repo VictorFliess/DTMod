@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "1": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "2": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dtmod:gadolinium_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gadolinium_hoe_better",
+    "customModelName": "Normal",
+    "name": "Gadolinium Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabDivineTrinity"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 5,
+    "efficiency": 12.0,
+    "attackSpeed": 1.0,
+    "enchantability": 18,
+    "damageVsEntity": 5.0,
+    "usageCount": 3032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

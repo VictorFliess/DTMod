@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "1": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "2": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "3": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "5": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "6": {
+      "item": "dtmod:itemgadoliniumingot"
+    },
+    "8": {
+      "item": "dtmod:itemgadoliniumingot"
+    }
+  },
+  "result": {
+    "item": "dtmod:gadolinium_armor_leggings",
+    "count": 1
+  }
+}

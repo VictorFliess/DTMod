@@ -1,0 +1,31 @@
+{
+  "_fv": 43,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "gadolinium_axe_better",
+    "customModelName": "Normal",
+    "name": "Gadolinium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TabDivineTrinity"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 14,
+    "damageVsEntity": 12.0,
+    "usageCount": 3032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

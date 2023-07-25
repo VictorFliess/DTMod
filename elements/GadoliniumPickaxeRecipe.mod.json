@@ -8,14 +8,23 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Itemrawgadolinium"
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "CUSTOM:Itemgadoliniumingot"
+      },
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -24,25 +33,16 @@
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Itemgadoliniumingot"
+      "value": "CUSTOM:GadoliniumPickaxe"
     },
-    "name": "crafting_table",
+    "name": "gadolinium_pickaxe_recipe",
     "namespace": "mod"
   }
 }

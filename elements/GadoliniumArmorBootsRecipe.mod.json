@@ -8,25 +8,10 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Itemrawgadolinium"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.NETHERITE_SCRAP"
-      },
-      {
         "value": ""
       },
       {
@@ -36,13 +21,28 @@
         "value": ""
       },
       {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      },
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Itemgadoliniumingot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Itemgadoliniumingot"
+      "value": "CUSTOM:GadoliniumArmor.boots"
     },
-    "name": "crafting_table",
+    "name": "gadolinium_armor_boots_recipe",
     "namespace": "mod"
   }
 }

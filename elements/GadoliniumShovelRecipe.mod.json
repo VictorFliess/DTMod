@@ -8,14 +8,14 @@
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Itemrawgadolinium"
+        "value": ""
       },
       {
-        "value": "Items.BLAZE_POWDER"
+        "value": "CUSTOM:Itemgadoliniumingot"
       },
       {
         "value": ""
@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Items.NETHERITE_SCRAP"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -33,16 +33,16 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Itemgadoliniumingot"
+      "value": "CUSTOM:GadoliniumShovel"
     },
-    "name": "crafting_table",
+    "name": "gadolinium_shovel_recipe",
     "namespace": "mod"
   }
 }

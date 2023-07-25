@@ -1,6 +1,15 @@
 {
-  "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
-  "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
+  "item.dtmod.gadolinium_axe": "Gadolinium Axe",
+  "item.dtmod.gadolinium_armor_leggings": "Gadolinium Leggings",
+  "item.dtmod.gadolinium_shovel": "Gadolinium Shovel",
+  "item.dtmod.gadolinium_armor_chestplate": "Gadolinium Chestplate",
   "item.dtmod.itemgadoliniumingot": "Itemgadoliniumingot",
+  "item.dtmod.gadolinium_armor_boots": "Gadolinium Boots",
+  "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
+  "item.dtmod.gadolinium_hoe": "Gadolinium Hoe",
+  "item.dtmod.gadolinium_pickaxe": "Gadolinium Pickaxe",
+  "item.dtmod.gadolinium_armor_helmet": "Gadolinium Helmet",
+  "item.dtmod.gadolinium_sword": "Gadolinium Sword",
+  "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
   "item.dtmod.item_raw_gadolinium": "Raw Gadolinium"
 }
