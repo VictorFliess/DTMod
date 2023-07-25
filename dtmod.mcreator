@@ -288,6 +288,19 @@
           "src/main/resources/data/dtmod/recipes/gadolinium_hoe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "GadoliniumSetDone",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gadolinium_set_done",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/advancements/gadolinium_set_done.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -300,7 +313,9 @@
       "item.dtmod.gadolinium_shovel": "Gadolinium Shovel",
       "item.dtmod.gadolinium_armor_chestplate": "Gadolinium Chestplate",
       "item.dtmod.gadolinium_ingot": "Gadolinium Ingot",
+      "advancements.gadolinium_set_done.title": "Getting stronger!",
       "item.dtmod.gadolinium_armor_boots": "Gadolinium Boots",
+      "advancements.gadolinium_set_done.descr": "Get a gadolinium ingot",
       "item.dtmod.gadolinium_hoe": "Gadolinium Hoe",
       "item.dtmod.gadolinium_pickaxe": "Gadolinium Pickaxe",
       "block.dtmod.gadolinium_ore": "Gadolinium Ore",
