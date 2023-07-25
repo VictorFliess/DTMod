@@ -633,6 +633,17 @@
           "src/main/resources/data/dtmod/advancements/becoming_invisible_gotten.json"
         ]
       }
+    },
+    {
+      "name": "SoulFragmentTrade",
+      "type": "villagertrade",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_fragment_trade",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
