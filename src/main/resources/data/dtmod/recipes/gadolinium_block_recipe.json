@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "1": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "2": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "3": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "4": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "5": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "6": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "7": {
+      "item": "dtmod:gadolinium_ingot"
+    },
+    "8": {
+      "item": "dtmod:gadolinium_ingot"
+    }
+  },
+  "result": {
+    "item": "dtmod:block_of_gadolinium",
+    "count": 1
+  }
+}

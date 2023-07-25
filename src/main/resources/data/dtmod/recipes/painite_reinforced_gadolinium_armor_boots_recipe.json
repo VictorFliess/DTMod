@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "dtmod:gadolinium_armor_boots"
+  },
+  "addition": {
+    "item": "dtmod:painite_shard"
+  },
+  "result": {
+    "item": "dtmod:painite_reinforced_gadolinium_armor_boots"
+  }
+}

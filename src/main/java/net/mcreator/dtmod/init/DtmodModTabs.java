@@ -31,6 +31,13 @@ public class DtmodModTabs {
 					tabData.accept(DtmodModItems.GADOLINIUM_SWORD.get());
 					tabData.accept(DtmodModItems.GADOLINIUM_SHOVEL.get());
 					tabData.accept(DtmodModItems.GADOLINIUM_HOE.get());
+					tabData.accept(DtmodModItems.PAINITE_SHARD.get());
+					tabData.accept(DtmodModBlocks.PAINITEBLOCK.get().asItem());
+					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_HELMET.get());
+					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_CHESTPLATE.get());
+					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_LEGGINGS.get());
+					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_BOOTS.get());
+					tabData.accept(DtmodModBlocks.BLOCK_OF_GADOLINIUM.get().asItem());
 				})
 
 		);

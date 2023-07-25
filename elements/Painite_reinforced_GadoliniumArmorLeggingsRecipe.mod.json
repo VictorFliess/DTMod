@@ -1,0 +1,25 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:GadoliniumArmor.legs"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Painiteshard"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Painite_reinforced_GadoliniumArmor.legs"
+    },
+    "name": "painite_reinforced_gadolinium_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

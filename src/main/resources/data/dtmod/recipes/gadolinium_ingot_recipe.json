@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "dtmod:block_of_gadolinium"
+    }
+  },
+  "result": {
+    "item": "dtmod:gadolinium_ingot",
+    "count": 9
+  }
+}
