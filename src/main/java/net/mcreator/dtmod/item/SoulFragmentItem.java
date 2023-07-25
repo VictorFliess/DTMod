@@ -1,6 +1,9 @@
 
 package net.mcreator.dtmod.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -24,6 +27,12 @@ public class SoulFragmentItem extends Item {
 	@Override
 	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
 		return new ItemStack(this);
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 
 	@Override
