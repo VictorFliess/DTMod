@@ -33,7 +33,7 @@ public class GadoliniumHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DtmodModItems.ITEMGADOLINIUMINGOT.get()));
+				return Ingredient.of(new ItemStack(DtmodModItems.GADOLINIUM_INGOT.get()));
 			}
 		}, 0, -3f, new Item.Properties());
 	}

@@ -8,7 +8,7 @@
     "name": "Gadolinium Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:TabDivineTrinity"
     },
     "toolType": "Spade",
     "harvestLevel": 5,

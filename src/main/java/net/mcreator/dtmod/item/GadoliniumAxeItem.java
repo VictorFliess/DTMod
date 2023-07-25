@@ -33,7 +33,7 @@ public class GadoliniumAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DtmodModItems.ITEMGADOLINIUMINGOT.get()));
+				return Ingredient.of(new ItemStack(DtmodModItems.GADOLINIUM_INGOT.get()));
 			}
 		}, 1, -2.8f, new Item.Properties());
 	}

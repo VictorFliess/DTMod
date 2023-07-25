@@ -17,5 +17,5 @@ import net.mcreator.dtmod.DtmodMod;
 @Mod.EventBusSubscriber
 public class DtmodModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, DtmodMod.MODID);
-	public static final RegistryObject<Feature<?>> BLOCK_GADOLINIUM_ORE = REGISTRY.register("block_gadolinium_ore", BlockgadoliniumoreFeature::new);
+	public static final RegistryObject<Feature<?>> GADOLINIUM_ORE = REGISTRY.register("gadolinium_ore", BlockgadoliniumoreFeature::new);
 }

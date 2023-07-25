@@ -40,7 +40,7 @@ public abstract class GadoliniumArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DtmodModItems.ITEMGADOLINIUMINGOT.get()));
+				return Ingredient.of(new ItemStack(DtmodModItems.GADOLINIUM_INGOT.get()));
 			}
 
 			@Override

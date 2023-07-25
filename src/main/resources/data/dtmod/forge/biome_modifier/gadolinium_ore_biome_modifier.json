@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "dtmod:block_gadolinium_ore",
+  "features": "dtmod:gadolinium_ore",
   "step": "underground_ores"
 }

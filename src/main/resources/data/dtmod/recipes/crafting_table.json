@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "dtmod:item_raw_gadolinium"
+      "item": "dtmod:raw_gadolinium"
     },
     {
       "item": "minecraft:blaze_powder"
@@ -13,7 +13,7 @@
     }
   ],
   "result": {
-    "item": "dtmod:itemgadoliniumingot",
+    "item": "dtmod:gadolinium_ingot",
     "count": 1
   }
 }

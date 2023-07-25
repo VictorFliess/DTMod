@@ -24,9 +24,9 @@ import net.mcreator.dtmod.DtmodMod;
 
 public class DtmodModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DtmodMod.MODID);
-	public static final RegistryObject<Item> ITEM_RAW_GADOLINIUM = REGISTRY.register("item_raw_gadolinium", () -> new ItemrawgadoliniumItem());
-	public static final RegistryObject<Item> BLOCK_GADOLINIUM_ORE = block(DtmodModBlocks.BLOCK_GADOLINIUM_ORE);
-	public static final RegistryObject<Item> ITEMGADOLINIUMINGOT = REGISTRY.register("itemgadoliniumingot", () -> new ItemgadoliniumingotItem());
+	public static final RegistryObject<Item> RAW_GADOLINIUM = REGISTRY.register("raw_gadolinium", () -> new ItemrawgadoliniumItem());
+	public static final RegistryObject<Item> GADOLINIUM_ORE = block(DtmodModBlocks.GADOLINIUM_ORE);
+	public static final RegistryObject<Item> GADOLINIUM_INGOT = REGISTRY.register("gadolinium_ingot", () -> new ItemgadoliniumingotItem());
 	public static final RegistryObject<Item> GADOLINIUM_ARMOR_HELMET = REGISTRY.register("gadolinium_armor_helmet", () -> new GadoliniumArmorItem.Helmet());
 	public static final RegistryObject<Item> GADOLINIUM_ARMOR_CHESTPLATE = REGISTRY.register("gadolinium_armor_chestplate", () -> new GadoliniumArmorItem.Chestplate());
 	public static final RegistryObject<Item> GADOLINIUM_ARMOR_LEGGINGS = REGISTRY.register("gadolinium_armor_leggings", () -> new GadoliniumArmorItem.Leggings());

@@ -33,7 +33,7 @@ public class GadoliniumSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(DtmodModItems.ITEMGADOLINIUMINGOT.get()));
+				return Ingredient.of(new ItemStack(DtmodModItems.GADOLINIUM_INGOT.get()));
 			}
 		}, 3, -2.2f, new Item.Properties());
 	}

@@ -30,11 +30,11 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "item_raw_gadolinium",
+      "registry_name": "raw_gadolinium",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dtmod/item/ItemrawgadoliniumItem.java",
-          "src/main/resources/assets/dtmod/models/item/item_raw_gadolinium.json"
+          "src/main/resources/assets/dtmod/models/item/raw_gadolinium.json"
         ]
       }
     },
@@ -44,17 +44,17 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "block_gadolinium_ore",
+      "registry_name": "gadolinium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dtmod/blockstates/block_gadolinium_ore.json",
+          "src/main/resources/assets/dtmod/models/block/gadolinium_ore.json",
           "src/main/java/net/mcreator/dtmod/world/features/ores/BlockgadoliniumoreFeature.java",
-          "src/main/resources/data/dtmod/worldgen/configured_feature/block_gadolinium_ore.json",
-          "src/main/resources/data/dtmod/forge/biome_modifier/block_gadolinium_ore_biome_modifier.json",
-          "src/main/resources/data/dtmod/worldgen/placed_feature/block_gadolinium_ore.json",
+          "src/main/resources/assets/dtmod/models/item/gadolinium_ore.json",
+          "src/main/resources/data/dtmod/worldgen/configured_feature/gadolinium_ore.json",
+          "src/main/resources/data/dtmod/forge/biome_modifier/gadolinium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/dtmod/block/BlockgadoliniumoreBlock.java",
-          "src/main/resources/assets/dtmod/models/block/block_gadolinium_ore.json",
-          "src/main/resources/assets/dtmod/models/item/block_gadolinium_ore.json"
+          "src/main/resources/assets/dtmod/blockstates/gadolinium_ore.json",
+          "src/main/resources/data/dtmod/worldgen/placed_feature/gadolinium_ore.json"
         ]
       }
     },
@@ -64,11 +64,11 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "itemgadoliniumingot",
+      "registry_name": "gadolinium_ingot",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/dtmod/item/ItemgadoliniumingotItem.java",
-          "src/main/resources/assets/dtmod/models/item/itemgadoliniumingot.json"
+          "src/main/resources/assets/dtmod/models/item/gadolinium_ingot.json"
         ]
       }
     },
@@ -295,18 +295,18 @@
   "language_map": {
     "en_us": {
       "item.dtmod.gadolinium_axe": "Gadolinium Axe",
+      "item.dtmod.raw_gadolinium": "Raw Gadolinium",
       "item.dtmod.gadolinium_armor_leggings": "Gadolinium Leggings",
       "item.dtmod.gadolinium_shovel": "Gadolinium Shovel",
       "item.dtmod.gadolinium_armor_chestplate": "Gadolinium Chestplate",
-      "item.dtmod.itemgadoliniumingot": "Itemgadoliniumingot",
+      "item.dtmod.gadolinium_ingot": "Gadolinium Ingot",
       "item.dtmod.gadolinium_armor_boots": "Gadolinium Boots",
-      "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
       "item.dtmod.gadolinium_hoe": "Gadolinium Hoe",
       "item.dtmod.gadolinium_pickaxe": "Gadolinium Pickaxe",
+      "block.dtmod.gadolinium_ore": "Gadolinium Ore",
       "item.dtmod.gadolinium_armor_helmet": "Gadolinium Helmet",
       "item.dtmod.gadolinium_sword": "Gadolinium Sword",
-      "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
-      "item.dtmod.item_raw_gadolinium": "Raw Gadolinium"
+      "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)"
     }
   },
   "foldersRoot": {

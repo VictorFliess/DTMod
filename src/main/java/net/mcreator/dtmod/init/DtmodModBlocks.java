@@ -15,5 +15,5 @@ import net.mcreator.dtmod.DtmodMod;
 
 public class DtmodModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DtmodMod.MODID);
-	public static final RegistryObject<Block> BLOCK_GADOLINIUM_ORE = REGISTRY.register("block_gadolinium_ore", () -> new BlockgadoliniumoreBlock());
+	public static final RegistryObject<Block> GADOLINIUM_ORE = REGISTRY.register("gadolinium_ore", () -> new BlockgadoliniumoreBlock());
 }

@@ -40,6 +40,6 @@ public class BlockgadoliniumoreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(DtmodModItems.ITEM_RAW_GADOLINIUM.get()));
+		return Collections.singletonList(new ItemStack(DtmodModItems.RAW_GADOLINIUM.get()));
 	}
 }

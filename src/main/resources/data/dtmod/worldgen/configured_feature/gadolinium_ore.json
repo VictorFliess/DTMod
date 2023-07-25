@@ -1,5 +1,5 @@
 {
-  "type": "dtmod:block_gadolinium_ore",
+  "type": "dtmod:gadolinium_ore",
   "config": {
     "size": 4,
     "discard_chance_on_air_exposure": 0,
@@ -12,7 +12,7 @@
           }
         },
         "state": {
-          "Name": "dtmod:block_gadolinium_ore"
+          "Name": "dtmod:gadolinium_ore"
         }
       },
       {
@@ -23,7 +23,7 @@
           }
         },
         "state": {
-          "Name": "dtmod:block_gadolinium_ore"
+          "Name": "dtmod:gadolinium_ore"
         }
       },
       {
@@ -34,7 +34,7 @@
           }
         },
         "state": {
-          "Name": "dtmod:block_gadolinium_ore"
+          "Name": "dtmod:gadolinium_ore"
         }
       },
       {
@@ -45,7 +45,7 @@
           }
         },
         "state": {
-          "Name": "dtmod:block_gadolinium_ore"
+          "Name": "dtmod:gadolinium_ore"
         }
       }
     ]
