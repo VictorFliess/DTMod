@@ -12,6 +12,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.dtmod.item.TranslucentNetheriteSwordItem;
+import net.mcreator.dtmod.item.TranslucentNetheriteArmorItem;
+import net.mcreator.dtmod.item.SoulFragmentItem;
 import net.mcreator.dtmod.item.PainiteshardItem;
 import net.mcreator.dtmod.item.Painite_reinforced_GadoliniumArmorItem;
 import net.mcreator.dtmod.item.ItemrawgadoliniumItem;
@@ -45,6 +48,12 @@ public class DtmodModItems {
 	public static final RegistryObject<Item> PAINITE_REINFORCED_GADOLINIUM_ARMOR_LEGGINGS = REGISTRY.register("painite_reinforced_gadolinium_armor_leggings", () -> new Painite_reinforced_GadoliniumArmorItem.Leggings());
 	public static final RegistryObject<Item> PAINITE_REINFORCED_GADOLINIUM_ARMOR_BOOTS = REGISTRY.register("painite_reinforced_gadolinium_armor_boots", () -> new Painite_reinforced_GadoliniumArmorItem.Boots());
 	public static final RegistryObject<Item> BLOCK_OF_GADOLINIUM = block(DtmodModBlocks.BLOCK_OF_GADOLINIUM);
+	public static final RegistryObject<Item> SOUL_FRAGMENT = REGISTRY.register("soul_fragment", () -> new SoulFragmentItem());
+	public static final RegistryObject<Item> TRANSLUCENT_NETHERITE_ARMOR_HELMET = REGISTRY.register("translucent_netherite_armor_helmet", () -> new TranslucentNetheriteArmorItem.Helmet());
+	public static final RegistryObject<Item> TRANSLUCENT_NETHERITE_ARMOR_CHESTPLATE = REGISTRY.register("translucent_netherite_armor_chestplate", () -> new TranslucentNetheriteArmorItem.Chestplate());
+	public static final RegistryObject<Item> TRANSLUCENT_NETHERITE_ARMOR_LEGGINGS = REGISTRY.register("translucent_netherite_armor_leggings", () -> new TranslucentNetheriteArmorItem.Leggings());
+	public static final RegistryObject<Item> TRANSLUCENT_NETHERITE_ARMOR_BOOTS = REGISTRY.register("translucent_netherite_armor_boots", () -> new TranslucentNetheriteArmorItem.Boots());
+	public static final RegistryObject<Item> TRANSLUCENT_NETHERITE_SWORD = REGISTRY.register("translucent_netherite_sword", () -> new TranslucentNetheriteSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

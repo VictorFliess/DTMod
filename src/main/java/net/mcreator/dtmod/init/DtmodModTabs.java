@@ -38,6 +38,12 @@ public class DtmodModTabs {
 					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_LEGGINGS.get());
 					tabData.accept(DtmodModItems.PAINITE_REINFORCED_GADOLINIUM_ARMOR_BOOTS.get());
 					tabData.accept(DtmodModBlocks.BLOCK_OF_GADOLINIUM.get().asItem());
+					tabData.accept(DtmodModItems.SOUL_FRAGMENT.get());
+					tabData.accept(DtmodModItems.TRANSLUCENT_NETHERITE_ARMOR_HELMET.get());
+					tabData.accept(DtmodModItems.TRANSLUCENT_NETHERITE_ARMOR_CHESTPLATE.get());
+					tabData.accept(DtmodModItems.TRANSLUCENT_NETHERITE_ARMOR_LEGGINGS.get());
+					tabData.accept(DtmodModItems.TRANSLUCENT_NETHERITE_ARMOR_BOOTS.get());
+					tabData.accept(DtmodModItems.TRANSLUCENT_NETHERITE_SWORD.get());
 				})
 
 		);

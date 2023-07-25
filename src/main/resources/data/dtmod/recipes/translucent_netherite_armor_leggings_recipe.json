@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "dtmod:soul_fragment"
+  },
+  "result": {
+    "item": "dtmod:translucent_netherite_armor_leggings"
+  }
+}

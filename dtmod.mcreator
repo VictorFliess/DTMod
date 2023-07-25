@@ -459,6 +459,180 @@
           "src/main/resources/data/dtmod/advancements/painite_done.json"
         ]
       }
+    },
+    {
+      "name": "SoulFragmentRightclicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_fragment_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/procedures/SoulFragmentRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulFragment",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dtmod/models/item/soul_fragment.json",
+          "src/main/java/net/mcreator/dtmod/item/SoulFragmentItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulFragmentGotten",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_fragment_gotten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/advancements/soul_fragment_gotten.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteArmor",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dtmod/models/item/translucent_netherite_armor_helmet.json",
+          "src/main/java/net/mcreator/dtmod/item/TranslucentNetheriteArmorItem.java",
+          "src/main/resources/assets/dtmod/models/item/translucent_netherite_armor_leggings.json",
+          "src/main/resources/assets/dtmod/models/item/translucent_netherite_armor_chestplate.json",
+          "src/main/resources/assets/dtmod/models/item/translucent_netherite_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/translucent_netherite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/translucent_netherite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/translucent_netherite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/translucent_netherite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteSwordRightclicked",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/procedures/TranslucentNetheriteSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriteSword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netherite_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dtmod/item/TranslucentNetheriteSwordItem.java",
+          "src/main/resources/assets/dtmod/models/item/translucent_netherite_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TranslucentNetheriiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "translucent_netheriite_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/recipes/translucent_netheriite_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BecomingInvisibleGotten",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "becoming_invisible_gotten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dtmod/advancements/becoming_invisible_gotten.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -466,20 +640,28 @@
   "language_map": {
     "en_us": {
       "advancements.painite_done.descr": "Get a Painite Shard",
+      "item.dtmod.translucent_netherite_sword": "Translucent Netherite Sword",
+      "advancements.becoming_invisible_gotten.descr": "Get a Translucent Netherite Sword",
       "item.dtmod.gadolinium_shovel": "Gadolinium Shovel",
       "item.dtmod.gadolinium_armor_chestplate": "Gadolinium Chestplate",
       "advancements.painite_done.title": "Strengthening the defenses",
+      "item.dtmod.translucent_netherite_armor_boots": "TranslucentNetherite Boots",
+      "item.dtmod.soul_fragment": "Soul Fragment",
       "item.dtmod.gadolinium_armor_boots": "Gadolinium Boots",
       "advancements.gadolinium_set_done.descr": "Get a gadolinium ingot",
       "item.dtmod.painite_reinforced_gadolinium_armor_boots": "Painite-reinforced Gadolinium Boots",
+      "item.dtmod.translucent_netherite_armor_helmet": "TranslucentNetherite Helmet",
       "block.dtmod.painiteblock": "Painiteblock",
       "item.dtmod.painite_reinforced_gadolinium_armor_chestplate": "Painite-reinforced Gadolinium Chestplate",
+      "advancements.soul_fragment_gotten.descr": "Get a Soul Fragment",
+      "advancements.becoming_invisible_gotten.title": "Becoming Invisible!",
       "item.dtmod.gadolinium_armor_helmet": "Gadolinium Helmet",
       "item.dtmod.painite_reinforced_gadolinium_armor_leggings": "Painite-reinforced Gadolinium Leggings",
       "item.dtmod.gadolinium_sword": "Gadolinium Sword",
       "item.dtmod.gadolinium_axe": "Gadolinium Axe",
       "item.dtmod.painite_shard": "Painite shard",
       "item.dtmod.raw_gadolinium": "Raw Gadolinium",
+      "advancements.soul_fragment_gotten.title": "Shattered Souls",
       "item.dtmod.gadolinium_armor_leggings": "Gadolinium Leggings",
       "item.dtmod.gadolinium_ingot": "Gadolinium Ingot",
       "advancements.gadolinium_set_done.title": "Getting stronger!",
@@ -487,7 +669,9 @@
       "item.dtmod.gadolinium_hoe": "Gadolinium Hoe",
       "item.dtmod.gadolinium_pickaxe": "Gadolinium Pickaxe",
       "block.dtmod.gadolinium_ore": "Gadolinium Ore",
+      "item.dtmod.translucent_netherite_armor_leggings": "TranslucentNetherite Leggings",
       "block.dtmod.block_of_gadolinium": "Block of Gadolinium",
+      "item.dtmod.translucent_netherite_armor_chestplate": "TranslucentNetherite Chestplate",
       "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)"
     }
   },
