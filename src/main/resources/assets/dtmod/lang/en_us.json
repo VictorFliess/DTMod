@@ -1,1 +1,6 @@
-{}
+{
+  "block.dtmod.block_gadolinium_ore": "Gadolinium Ore",
+  "item_group.dtmod.tab_divine_trinity": "Divine Trinity (but it\u0027s 4 people)",
+  "item.dtmod.itemgadoliniumingot": "Itemgadoliniumingot",
+  "item.dtmod.item_raw_gadolinium": "Raw Gadolinium"
+}

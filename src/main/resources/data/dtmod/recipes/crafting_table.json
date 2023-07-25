@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dtmod",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dtmod:item_raw_gadolinium"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "result": {
+    "item": "dtmod:itemgadoliniumingot",
+    "count": 1
+  }
+}

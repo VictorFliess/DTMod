@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.dtmod.init.DtmodModItems;
+import net.mcreator.dtmod.init.DtmodModFeatures;
+import net.mcreator.dtmod.init.DtmodModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,11 @@ public class DtmodMod {
 	public DtmodMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		DtmodModBlocks.REGISTRY.register(bus);
+		DtmodModItems.REGISTRY.register(bus);
+
+		DtmodModFeatures.REGISTRY.register(bus);
 
 	}
 
